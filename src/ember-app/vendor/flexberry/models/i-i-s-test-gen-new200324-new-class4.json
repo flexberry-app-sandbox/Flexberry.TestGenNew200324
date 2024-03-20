@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISTestGenNew200324NewClass4",
+  "modelName": "i-i-s-test-gen-new200324-new-class4",
+  "className": "NewClass4",
+  "nameSpace": "IIS.TestGenNew200324",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "asd1",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "NewClass4E",
+      "modelName": "i-i-s-test-gen-new200324-new-class4",
+      "attrs": [
+        {
+          "name": "asd1",
+          "caption": "Asd1",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "NewClass4L",
+      "modelName": "i-i-s-test-gen-new200324-new-class4",
+      "attrs": [
+        {
+          "name": "asd1",
+          "caption": "Asd1",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

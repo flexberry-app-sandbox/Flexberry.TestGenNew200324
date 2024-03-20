@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Test gen new200324",
+  "applicationTitle": "Test gen new200324",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test-gen-new200324",
+      "caption": "TestGenNew200324",
+      "title": "TestGenNew200324",
+      "children": [
+        {
+          "link": "i-i-s-test-gen-new200324-new-class4-l",
+          "menuName": null,
+          "caption": "New class4",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-gen-new200324-new-class6-l",
+          "menuName": null,
+          "caption": "New class6",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

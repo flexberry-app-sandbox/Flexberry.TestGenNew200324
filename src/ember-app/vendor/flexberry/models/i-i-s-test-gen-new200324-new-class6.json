@@ -1,0 +1,120 @@
+﻿{
+  "name": "IISTestGenNew200324NewClass6",
+  "modelName": "i-i-s-test-gen-new200324-new-class6",
+  "className": "NewClass6",
+  "nameSpace": "IIS.TestGenNew200324",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "asd2",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "newClass4",
+      "relatedTo": "i-i-s-test-gen-new200324-new-class4",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "newClass5",
+      "relatedTo": "i-i-s-test-gen-new200324-new-class5",
+      "inverse": "newClass6"
+    }
+  ],
+  "projections": [
+    {
+      "name": "NewClass6E",
+      "modelName": "i-i-s-test-gen-new200324-new-class6",
+      "attrs": [
+        {
+          "name": "asd2",
+          "caption": "Asd2",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "asd1",
+          "lookupValueField": "asd1",
+          "relationName": "NewClass4",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "asd1",
+              "caption": "Asd1",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "New class4",
+          "name": "newClass4",
+          "relatedTo": "i-i-s-test-gen-new200324-new-class4",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "NewClass5E",
+          "caption": "New class5",
+          "name": "newClass5",
+          "relatedTo": "i-i-s-test-gen-new200324-new-class5",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "NewClass6L",
+      "modelName": "i-i-s-test-gen-new200324-new-class6",
+      "attrs": [
+        {
+          "name": "asd2",
+          "caption": "Asd2",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "NewClass4",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "asd1",
+              "caption": "Asd1",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Asd1",
+          "name": "newClass4",
+          "relatedTo": "i-i-s-test-gen-new200324-new-class4",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

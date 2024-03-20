@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test-gen-new200324-new-class6-e",
+  "editForm": "i-i-s-test-gen-new200324-new-class6-e",
+  "external": false,
+  "caption": "New class6",
+  "name": "IISTestGenNew200324NewClass6L",
+  "className": "NewClass6L",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-gen-new200324-new-class6",
+      "modelProjection": "NewClass6L"
+    }
+  ]
+}
